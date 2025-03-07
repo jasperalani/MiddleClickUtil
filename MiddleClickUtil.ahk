@@ -6,10 +6,10 @@
 SetTimer, EnsureExplorerReady, -100
 
 #If ExplorerUnderMouse()
-MButton::OpenFolderInNewWinow()
+MButton::OpenFolderInNewWindow()
 #If
 
-OpenFolderInNewWinow() {
+OpenFolderInNewWindow() {
     Click, right
     hMenu := WaitForContextMenu()
     
